@@ -1,8 +1,8 @@
-package com.xiaoz.rtclass.service;
+package com.rtc.service;
 
-import com.xiaoz.rtclass.entity.MyResponse;
-import com.xiaoz.rtclass.entity.User;
-import com.xiaoz.rtclass.repository.UserDAO;
+import com.rtc.entity.MyResponse;
+import com.rtc.entity.User;
+import com.rtc.repository.UserDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

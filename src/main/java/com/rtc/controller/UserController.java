@@ -1,9 +1,9 @@
-package com.xiaoz.rtclass.controller;
+package com.rtc.controller;
 
 import com.google.gson.Gson;
-import com.xiaoz.rtclass.entity.MyResponse;
-import com.xiaoz.rtclass.entity.User;
-import com.xiaoz.rtclass.service.UserService;
+import com.rtc.entity.MyResponse;
+import com.rtc.entity.User;
+import com.rtc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

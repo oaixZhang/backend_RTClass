@@ -1,9 +1,7 @@
-package com.xiaoz.rtclass.service;
+package com.rtc.service;
 
-import com.xiaoz.rtclass.entity.MyResponse;
-import com.xiaoz.rtclass.entity.QuestionBean;
-import com.xiaoz.rtclass.repository.HomeworkDAO;
-import com.xiaoz.rtclass.repository.QuestionDAO;
+import com.rtc.entity.QuestionBean;
+import com.rtc.repository.QuestionDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.xiaoz.rtclass.entity;
+package com.rtc.entity;
 
 import java.io.Serializable;
 

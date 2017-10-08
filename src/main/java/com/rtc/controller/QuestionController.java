@@ -1,7 +1,7 @@
-package com.xiaoz.rtclass.controller;
+package com.rtc.controller;
 
-import com.xiaoz.rtclass.entity.QuestionBean;
-import com.xiaoz.rtclass.service.QuestionService;
+import com.rtc.entity.QuestionBean;
+import com.rtc.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

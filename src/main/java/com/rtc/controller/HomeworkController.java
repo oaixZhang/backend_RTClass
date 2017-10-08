@@ -1,7 +1,7 @@
-package com.xiaoz.rtclass.controller;
+package com.rtc.controller;
 
-import com.xiaoz.rtclass.entity.MyResponse;
-import com.xiaoz.rtclass.service.HomeworkService;
+import com.rtc.entity.MyResponse;
+import com.rtc.service.HomeworkService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -4,9 +4,9 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.xiaoz.rtclass.service"/>
-    <context:component-scan base-package="com.xiaoz.rtclass.entity"/>
-    <context:component-scan base-package="com.xiaoz.rtclass.repository"/>
+    <context:component-scan base-package="com.rtc">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
 
     <context:property-placeholder location="WEB-INF/jdbc.properties"/>
 

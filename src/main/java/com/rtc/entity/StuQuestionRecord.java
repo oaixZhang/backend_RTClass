@@ -1,4 +1,4 @@
-package com.xiaoz.rtclass.entity;
+package com.rtc.entity;
 
 /**
  * Created by xiao

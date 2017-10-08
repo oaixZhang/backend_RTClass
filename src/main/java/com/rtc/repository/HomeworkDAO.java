@@ -1,8 +1,8 @@
-package com.xiaoz.rtclass.repository;
+package com.rtc.repository;
 
-import com.xiaoz.rtclass.entity.Homework;
-import com.xiaoz.rtclass.entity.QuestionBean;
-import com.xiaoz.rtclass.entity.StuQuestionRecord;
+import com.rtc.entity.StuQuestionRecord;
+import com.rtc.entity.Homework;
+import com.rtc.entity.QuestionBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;

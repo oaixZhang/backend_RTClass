@@ -1,7 +1,7 @@
 import com.google.gson.Gson;
-import com.xiaoz.rtclass.entity.Homework;
-import com.xiaoz.rtclass.entity.QuestionBean;
-import com.xiaoz.rtclass.repository.HomeworkDAO;
+import com.rtc.entity.Homework;
+import com.rtc.entity.QuestionBean;
+import com.rtc.repository.HomeworkDAO;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
